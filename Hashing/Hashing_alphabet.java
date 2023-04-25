@@ -16,6 +16,7 @@ public class Hashing_alphabet {
 
     public static void main(String[] args) {
         String s = "tanishi";
+        int array[] = {'a','b'};
         char k = 'z';
         int result = hash(s, k);
         System.out.println(result);
