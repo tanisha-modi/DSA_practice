@@ -1,8 +1,8 @@
 package Hashing;
-import java.rmi.server.RemoteServer;
+ 
 import java.util.*;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
+
 
 public class HashMap1 {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class HashMap1 {
         // creating
         HashMap<String, Integer> map = new HashMap<>();   // Unordered map //pairs
 
-        // Insertion
+        // Insertion  // put -->  either udpate the existing one or insert new pair
         map.put("India", 120);
         map.put("US", 30);
         map.put("china", 150);
