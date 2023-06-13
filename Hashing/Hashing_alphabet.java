@@ -1,4 +1,4 @@
-package Hashing;
+
 
 public class Hashing_alphabet {
     static int hash(String s, int key){

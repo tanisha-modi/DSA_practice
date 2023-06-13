@@ -1,4 +1,4 @@
-package Hashing;
+// package Hashing;
 
 public class Hashing_alphabet2 {
     static int hash(int array[], int key){
