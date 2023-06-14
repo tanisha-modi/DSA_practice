@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int[] array = { 5, 4, 3, 7, 2, 98};
-        array = mergeSort(array);
+        int[] array = { 5, 4, 3, 7, 2, 98}; // original array does not change in this 
+        array = mergeSort(array);    
 
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array));   
     }
 
     // recursive function 
