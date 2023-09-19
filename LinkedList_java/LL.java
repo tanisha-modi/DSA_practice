@@ -55,12 +55,12 @@ class LL{
     // DELETE FIRST 
     public int deleteFirst(){
         int val = head.value;
-        head = head.next;
         if(head == null){
             tail = null;
         }
+        head = head.next;
         size--;
-        return val;
+        return val; 
     }
 
     // DELETE LAST 
@@ -97,6 +97,7 @@ class LL{
         return val;
     }
 
+// FIND
     public Node find(int value){
         Node node = head;
         while(node !=null){
