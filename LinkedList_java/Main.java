@@ -4,19 +4,24 @@ public class Main {
 
 //  SINGLY LINKED LIST ----------------------------------------------------------------
 
-        // LL list = new LL();
-        // list.insertFirst(3);
-        // list.insertFirst(2);
-        // list.insertFirst(34);
-        // list.insertLast(100);
-        // list.display();
-        // list.insert(400, 2);
-        // list.display();
+        LL list = new LL();
+        list.insertFirst(3);
+        list.insertFirst(2);
+        list.insertFirst(34);
+        list.insertLast(100);
+        list.display();
+        list.insert(400, 2);
+        list.display();
 
-        // System.out.println(list.deleteFirst());
-        // list.display();
-        // System.out.println(list.deleteLast());
-        // list.display();
+        System.out.println(list.deleteFirst());
+        list.display();
+        System.out.println(list.deleteLast());
+        list.display();
+
+        list.insertRec(88, 2);
+        list.display();
+
+
 
 
         // DOUBLY LINKED LIST ----------------------------------------------------------
@@ -33,12 +38,12 @@ public class Main {
 
         // CIRCULAR LINKED LIST
 
-        CLL list = new CLL();
-        list.insert(24);
-        list.insert(100);
-        list.insert(24);
-        list.display();
-        list.delete(30);
-        list.display();
+        // CLL list = new CLL();
+        // list.insert(24);
+        // list.insert(100);
+        // list.insert(24);
+        // list.display();
+        // list.delete(30);
+        // list.display();
     }
 }
