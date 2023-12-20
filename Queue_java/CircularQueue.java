@@ -13,7 +13,7 @@ class CircularQueue{
     }   
 
     public boolean isFull(){
-        return size == data.length; // ptr is last index
+        return size == data.length;  
     }
 
 

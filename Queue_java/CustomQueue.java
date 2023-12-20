@@ -1,7 +1,4 @@
 class CustomQueue{
-    // public static void main(String[] args){
-
-    // }
     protected int[] data;
         final static int DEFAULT_SIZE = 10;
         int end = 0;
